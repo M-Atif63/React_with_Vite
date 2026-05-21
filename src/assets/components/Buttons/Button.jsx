@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 function Button(props) {
+    // const {changeTheme} = useContext(themeProvider)
+    
     const buttonStyle = {
     width: '90px',
     height: '40px',
