@@ -8,7 +8,7 @@ import Home from './assets/components/Pages/Home'
 function App() {
   return (
     <>
-    <Home/>
+    <Routing/>
     </>
   )
 }
