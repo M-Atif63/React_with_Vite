@@ -6,11 +6,13 @@ import Feedback from '../Pages/Feedback'
 import Contact from '../Pages/Contact'
 import Blogs from '../Pages/Blogs'
 import Pricing from '../Pages/Pricing'
+import Navbar from '../Navbar/Navbar'
 
 function Routing() {
   return (
     <div>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
